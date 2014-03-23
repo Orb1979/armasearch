@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/green_dark"
+    >
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/historyHeaderName"
+        android:textSize="12sp"
+        android:textColor="@color/light_pink"
+        android:gravity="center"
+        android:layout_weight="12"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/historyHeaderPlayers"
+        android:textSize="12sp"
+        android:textColor="@color/light_pink"
+        android:gravity="center"
+        android:layout_weight="4"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/historyHeaderCountry"
+        android:textSize="12sp"
+        android:textColor="@color/light_pink"
+        android:gravity="center"
+        android:layout_weight="4"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/historyHeaderDedicated"
+        android:textSize="12sp"
+        android:textColor="@color/light_pink"
+        android:gravity="center"
+        android:layout_weight="5"
+        />
+</LinearLayout>
+
+
+
+<!-- From: file:/media/orb/data/Android/Arma/armasearch-master/app/src/main/res/layout/history_header.xml -->

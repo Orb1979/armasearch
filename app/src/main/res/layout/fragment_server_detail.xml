@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/green_light"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    >
+
+    <!-- start collapse holder -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/collapseView"
+        >
+
+        <!-- server related -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:text="@string/headerServerDetails"
+            android:background="@color/green_dark"
+            android:textColor="@color/light_pink"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:id="@+id/password"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:src="@drawable/passworded"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="5dp"
+                android:visibility="gone"
+                android:contentDescription="@string/descImagePassword" />
+            <TextView
+                android:id="@+id/server_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="10dp"
+                >
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textColor="@color/green_dark"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:text="@string/serverCountry"
+                />
+                <TextView
+                    android:id="@+id/country"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="10dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/green_dark"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:text="@string/serverState"
+                    />
+                <TextView
+                    android:id="@+id/state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/green_dark"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:text="@string/serverAdres"
+                    />
+                <TextView
+                    android:id="@+id/adres"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- game related -->
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:text="@string/headerGame"
+            android:background="@color/green_dark"
+            android:textColor="@color/light_pink"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            />
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingRight="10dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    android:textColor="@color/green_dark"
+                    android:textStyle="bold"
+                    android:text="@string/gameActivePlayers"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    android:textColor="@color/green_dark"
+                    android:textStyle="bold"
+                    android:text="@string/gameMaxPlayers"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                     android:textColor="@color/green_dark"
+                    android:textStyle="bold"
+                    android:text="@string/gameMission"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    android:textColor="@color/green_dark"
+                    android:textStyle="bold"
+                    android:text="@string/gameIsland"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    android:textColor="@color/green_dark"
+                    android:textStyle="bold"
+                    android:text="@string/gameStarted"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/playercount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/maxplayercount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/mission"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    />
+                <TextView
+
+                    android:id="@+id/island"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    />
+
+                <TextView
+                    android:id="@+id/startTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <!-- end of collapse holder -->
+
+
+    <!-- players related -->
+    <RelativeLayout
+        android:id="@+id/viewExpandSearch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-2dp"
+
+        >
+
+        <TextView
+            android:id="@+id/tvPlayers"
+            android:layout_width="fill_parent"
+            android:layout_height="34dp"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:text="@string/headerPlayers"
+            android:background="@color/green_dark"
+            android:textColor="@color/light_pink"
+            android:gravity="center"
+
+            />
+
+        <Button
+            android:id="@+id/btnExpand"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:textSize="12sp"
+            android:text="@string/btnExpand"
+            android:layout_alignRight="@+id/tvPlayers"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="1dp"
+            />
+    </RelativeLayout>
+
+        <ListView
+            android:id="@+id/players"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp"
+            />
+
+</LinearLayout>
+

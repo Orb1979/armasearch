@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="demostyle" parent="@style/_demostyle"/>
+
+    <style name="_demostyle" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="android:editTextStyle">@style/EditTextdemostyle</item>
+
+        <item name="android:textColorHighlight">#991122</item>
+
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewdemostyle</item>
+
+        <item name="android:checkboxStyle">@style/CheckBoxdemostyle</item>
+
+        <item name="android:buttonStyle">@style/Buttondemostyle</item>
+
+        <item name="android:imageButtonStyle">@style/ImageButtondemostyle</item>
+
+        <item name="android:spinnerStyle">@style/Spinnerdemostyle</item>
+
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemdemostyle</item>
+
+    <!-- tabs indicator color -->
+    <item name="android:actionBarTabStyle">@style/MyActionBarTabs</item>
+    <item name="actionBarTabStyle">@style/MyActionBarTabs</item>
+
+  </style>
+
+
+    <!-- ActionBar tabs styles -->
+    <style name="MyActionBarTabs"  parent="@style/Widget.AppCompat.ActionBar.TabView">
+        <!-- tab indicator -->
+        <item name="android:background">@drawable/actionbar_tab_indicator</item>
+        <item name="background">@drawable/actionbar_tab_indicator</item>
+    </style>
+
+</resources>

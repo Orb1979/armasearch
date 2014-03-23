@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+
+<!--
+ ** gradle 0.9.+ crash on android 2.3 and lower
+  reverted gradle version, see build.gradle.xml
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="EditTextdemostyle" parent="android:Widget.EditText">
+        <item name="android:background">@drawable/demostyle_edit_text_holo_light</item>  <!-- **-->
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="AutoCompleteTextViewdemostyle" parent="android:Widget.AutoCompleteTextView">
+        <item name="android:dropDownSelector">@drawable/demostyle_list_selector_holo_light</item>
+        <item name="android:background">@drawable/demostyle_edit_text_holo_light</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="CheckBoxdemostyle" parent="android:Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/demostyle_btn_check_holo_light</item>
+    </style>
+
+    <style name="Buttondemostyle" parent="android:Widget.Button">
+        <item name="android:background">@drawable/demostyle_btn_default_holo_light</item>  <!-- **-->
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">64dip</item>
+        <item name="android:textColor">@color/light_pink</item>
+    </style>
+
+    <style name="ImageButtondemostyle" parent="android:Widget.ImageButton">
+        <item name="android:background">@drawable/demostyle_btn_default_holo_light</item>  <!-- **-->
+    </style>
+
+    <style name="Spinnerdemostyle" parent="android:Widget.Spinner">
+        <item name="android:background">@drawable/demostyle_spinner_background_holo_light</item>
+        <item name="android:dropDownSelector">@drawable/demostyle_list_selector_holo_light</item>
+    </style>
+
+    <style name="SpinnerDropDownItemdemostyle" parent="android:Widget.DropDownItem.Spinner">
+        <item name="android:checkMark">@drawable/demostyle_btn_radio_holo_light</item>
+    </style>
+</resources>

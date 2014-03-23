@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Arma 3 Server Browser</string>
+
+    <!-- common -->
+    <string name="xmlServerListPrefix"><![CDATA[http://arma3.swec.se/server/list.xml]]></string>
+    <string name="xmlServerListPostfix"><![CDATA[&state_playing=1&state_waiting=1]]></string>
+    <string name="xmlServerPrefix">http://arma3.swec.se/server/xml/</string>
+    <string name="btnCollapse">-</string>
+    <string name="btnExpand">+</string>
+
+    <!-- Main.java.xml -->
+    <string name="tabTitleSearch">Search</string>
+    <string name="tabTitleServerList">Server</string>
+    <string name="tabTileServerDetail">Detail</string>
+    <string name="dialogExitAppMessage">Are you sure you want to exit?</string>
+    <string name="dialogExitAppPositive">Yes</string>
+    <string name="dialogExitAppNegative">No</string>
+
+
+    <!-- ===============  SEARCH =============== -->
+
+    <!-- fragment_search.xml -->
+    <string name="header_search">Enter a server name</string>
+    <string name="headerFilters">Optional filters</string>
+    <string name="headerFriends">Friends</string>
+    <string name="headerSearchHistory">Search History:</string>
+    <string name="btnSearch">SEARCH</string>
+    <string name="filterPlayers">filter on players</string>
+    <string name="filterCountry">filter on country code</string>
+    <string name="filterDedicated">Dedicated Servers only</string>
+    <string name="cbWildcards">surround with wildcards</string>
+    <string name="descImageInfo">info</string>
+    <string name="btnAddFriend">ADD FRIEND</string>
+
+    <!-- fragmentSearch.java -->
+    <string name="dialogTitleDeleteFriends">Delete all friends</string>
+    <string name="dialogMessageDeleteFriends">Are you sure you want to delete all your friends?</string>
+    <string name="dialogTitleClearHistory">Delete your search history</string>
+    <string name="dialogMessageClearHistory">Are you sure you want to delete your search history?</string>
+    <string name="searchValidateMinChars">Enter at least 2 characters</string>
+    <string name="addFriendValidateMinChars">Enter at least 2 characters</string>
+    <string name="spNameHistory">history</string>
+    <string name="spNameFriends">friends</string>
+
+    <!-- misc layout files for Search -->
+    <string name="btnClearFriends">Clear Friends</string>
+    <string name="btnEditFriend">Edit</string>
+    <string name="btnRemoveFriend">X</string>
+    <string name="btnClearHistory">Clear History</string>
+    <string name="historyHeaderName">name</string>
+    <string name="historyHeaderPlayers">players</string>
+    <string name="historyHeaderCountry">country</string>
+    <string name="historyHeaderDedicated">dedicated</string>
+    <string name="WildcardPopupInfo"><![CDATA[
+        You can enter multiple friends here.
+        \nThe following wildcards are supported:
+        \n\n* will replace multiple characters
+        \n? will replace 1 character
+        \n\nExample:
+        \n*john* will match abcJohnXYZ
+        \n?rgg?* will match [RGG]Anyone
+        \n\nIf you check \'Surround with wildcards\', a * will be added at the start and end of the name.
+        ]]>
+    </string>
+
+
+    <!-- =============== SERVER LIST =============== -->
+
+    <!-- fragmentServerList.xml -->
+    <string name="descImageRefrehServers">Refresh</string>
+    <string name="descImageSorting">Sort</string>
+
+    <!-- fragmentServerList.java -->
+    <string name="server_btn_refresh_label">Refresh</string>
+    <string name="server_sort_label">Choose sort method</string>
+    <string-array name="spinnerItems">
+        <item>sort by players</item>
+        <item>sort by name</item>
+        <item>sort by country</item>
+        <item>sort by status</item>
+        <item>highlight friends</item>
+    </string-array>
+
+
+    <!-- =============== SERVER DETAILS =============== -->
+
+    <!-- fragmentServerDetails.xml -->
+    <string name="headerServerDetails">SERVER</string>
+    <string name="serverCountry">country</string>
+    <string name="serverState">state</string>
+    <string name="serverAdres">address</string>
+    <string name="headerGame">GAME</string>
+    <string name="gameActivePlayers">Active players</string>
+    <string name="gameMaxPlayers">Highest players</string>
+    <string name="gameMission">Mission</string>
+    <string name="gameIsland">Island</string>
+    <string name="gameStarted">started </string>
+    <string name="descImagePassword">password</string>
+    <string name="headerPlayers">PLAYERS</string>
+
+    <!-- misc layout files for server details -->
+    <string name="playerHeaderName">name</string>
+    <string name="playerHeaderScore">score</string>
+    <string name="playerHeaderDeaths">deaths</string>
+    <string name="btnEditSaveFriend">save</string>
+
+</resources>
+

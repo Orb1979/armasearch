@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blackish">#1e1e1e</color>
+    <color name="black_alpha20">#331b1b1b</color>
+
+    <!--
+    http://www.colorcombos.com/color-schemes/2084/ColorCombo2084.html
+    -->
+
+    <color name="green_dark">#666633</color>
+    <color name="green_light">#EFEFCC</color>
+
+    <color name="red_purple">#991122</color>
+    <color name="red_purple_alpha">#BB991122</color>
+    <color name="light_pink">#F6E4CC</color>
+    <color name="white">#fff</color>
+
+    <color name="gray">#a0a0a0</color>
+
+</resources>

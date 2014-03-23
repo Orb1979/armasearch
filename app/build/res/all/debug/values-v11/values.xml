@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/media/orb/data/Android/Arma/armasearch-master/app/src/main/res/values-v11/styles.xml -->
+    <eat-comment />
+
+    <style name="AutoCompleteTextViewdemostyle" parent="android:Widget.Holo.Light.AutoCompleteTextView">
+        <item name="android:dropDownSelector">@drawable/demostyle_list_selector_holo_light</item>
+        <item name="android:background">@drawable/demostyle_edit_text_holo_light</item>
+    </style>
+
+    <style name="Buttondemostyle" parent="android:Widget.Holo.Light.Button">
+        <item name="android:background">@drawable/demostyle_btn_default_holo_light</item>
+        <item name="android:textColor">@color/light_pink</item>
+    </style>
+
+    <style name="ImageButtondemostyle" parent="android:Widget.Holo.Light.ImageButton">
+        <item name="android:background">@drawable/demostyle_btn_default_holo_light</item>
+    </style>
+    <!-- From: file:/media/orb/data/Android/Arma/armasearch-master/app/src/main/res/values-v11/themes_demostyle.xml -->
+    <eat-comment />
+
+    <style name="MyActionBarTabs" parent="@style/Widget.AppCompat.ActionBar.TabView">
+
+        <!-- tab indicator -->
+        <item name="android:background">@drawable/actionbar_tab_indicator</item>
+        <item name="background">@drawable/actionbar_tab_indicator</item>
+    </style>
+    <!-- From: file:/media/orb/data/Android/Arma/armasearch-master/app/src/main/res/values-v11/styles.xml -->
+    <eat-comment />
+
+    <style name="Spinnerdemostyle" parent="android:Widget.Holo.Light.Spinner">
+        <item name="android:background">@drawable/demostyle_spinner_background_holo_light</item>
+        <item name="android:dropDownSelector">@drawable/demostyle_list_selector_holo_light</item>
+    </style>
+    <!-- From: file:/media/orb/data/Android/Arma/armasearch-master/app/build/exploded-aar/com.android.support/appcompat-v7/19.0.1/res/values-v11/values.xml -->
+    <eat-comment />
+
+    <style name="Theme.Base" parent="android:Theme.Holo">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+
+        <!-- Attributes populated from the framework to be read by apps -->
+        <item name="buttonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="buttonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+        <item name="selectableItemBackground">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="Theme.Base.Light" parent="android:Theme.Holo.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+
+        <!-- Attributes populated from the framework to be read by apps -->
+        <item name="buttonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="buttonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+        <item name="selectableItemBackground">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="Widget.AppCompat.Base.AutoCompleteTextView" parent="android:Widget.Holo.AutoCompleteTextView" />
+
+    <style name="Widget.AppCompat.Base.ProgressBar" parent="android:Widget.Holo.ProgressBar" />
+
+    <style name="Widget.AppCompat.Base.ProgressBar.Horizontal" parent="android:Widget.Holo.ProgressBar.Horizontal" />
+
+    <style name="Widget.AppCompat.Light.Base.AutoCompleteTextView" parent="android:Widget.Holo.Light.AutoCompleteTextView" />
+    <!-- From: file:/media/orb/data/Android/Arma/armasearch-master/app/src/main/res/values-v11/themes_demostyle.xml -->
+    <eat-comment />
+
+    <style name="_demostyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:editTextBackground">@drawable/demostyle_edit_text_holo_light</item>
+        <item name="android:textColorHighlight">#99991122</item>
+        <item name="android:textSelectHandleLeft">@drawable/demostyle_text_select_handle_left</item>
+        <item name="android:textSelectHandleRight">@drawable/demostyle_text_select_handle_right</item>
+        <item name="android:textSelectHandle">@drawable/demostyle_text_select_handle_middle</item>
+        <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewdemostyle</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/demostyle_btn_check_holo_light</item>
+        <item name="android:buttonStyle">@style/Buttondemostyle</item>
+        <item name="android:imageButtonStyle">@style/ImageButtondemostyle</item>
+        <item name="android:dropDownSpinnerStyle">@style/Spinnerdemostyle</item>
+        <item name="android:actionBarTabStyle">@style/MyActionBarTabs</item>
+        <item name="actionBarTabStyle">@style/MyActionBarTabs</item>
+    </style>
+
+    <style name="demostyle" parent="@style/_demostyle" />
+
+</resources>

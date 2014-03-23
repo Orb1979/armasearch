@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/media/orb/data/Android/Arma/armasearch-master/app/src/main/res/values-v9/styles.xml -->
+    <eat-comment />
+
+    <style name="demostyle" parent="@style/_demostyle">
+        <item name="android:textSelectHandleLeft">@drawable/demostyle_text_select_handle_left</item>
+        <item name="android:textSelectHandleRight">@drawable/demostyle_text_select_handle_right</item>
+        <item name="android:textSelectHandle">@drawable/demostyle_text_select_handle_middle</item>
+    </style>
+
+</resources>

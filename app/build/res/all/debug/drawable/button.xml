@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- http://belencruz.com/2012/12/rounded-button-with-shadow-in-android/ -->
+
+
+    <item android:state_pressed="true" >
+        <shape>
+            <gradient
+                android:endColor="@color/red_purple"
+                android:startColor="@color/red_purple"
+                android:angle="270" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/light_pink" />
+            <corners
+                android:radius="8dp" />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+
+
+    </item>
+
+    <item android:state_focused="true" >
+        <shape>
+            <gradient
+                android:endColor="@color/red_purple"
+                android:startColor="@color/red_purple"
+                android:angle="270" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/light_pink" />
+            <corners
+                android:radius="8dp" />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+
+
+   <item android:state_enabled="false">
+       <shape>
+           <gradient
+               android:endColor="@color/red_purple_alpha"
+               android:startColor="@color/red_purple_alpha"
+               android:angle="270" />
+           <stroke
+               android:width="2dp"
+               android:color="@color/light_pink" />
+           <corners
+               android:radius="8dp" />
+           <padding
+               android:left="10dp"
+               android:top="10dp"
+               android:right="10dp"
+               android:bottom="10dp" />
+       </shape>
+
+   </item>
+
+
+    <item android:state_enabled="true">
+        <shape>
+            <gradient
+                android:endColor="@color/red_purple"
+                android:startColor="@color/red_purple_alpha"
+                android:angle="270" />
+            <stroke
+                android:width="2dp"
+                android:color="@color/light_pink" />
+            <corners
+                android:radius="8dp" />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+
+    </item>
+
+</selector><!-- From: file:/media/orb/data/Android/Arma/armasearch-master/app/src/main/res/drawable/button.xml -->

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="@color/black_alpha20"/>
+    <corners android:radius="9dip"/>
+
+</shape><!-- From: file:/media/orb/data/Android/Arma/armasearch-master/app/src/main/res/drawable/button_shadow.xml -->

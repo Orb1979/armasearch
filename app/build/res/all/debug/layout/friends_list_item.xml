@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:paddingTop="5dp"
+
+              >
+
+        <EditText
+        android:id="@+id/friendName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blackish"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:inputType="textFilter"
+        android:layout_weight="1"
+        android:enabled="false"
+
+    />
+
+    <com.orb.arma.CustomViews.ToggleButton
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:text="@string/btnEditFriend"
+        />
+
+
+
+    <Button
+        android:id="@+id/btnRemove"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:text="@string/btnRemoveFriend"
+    />
+
+</LinearLayout>
+
+
+
+<!-- From: file:/media/orb/data/Android/Arma/armasearch-master/app/src/main/res/layout/friends_list_item.xml -->
